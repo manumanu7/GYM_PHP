@@ -28,12 +28,12 @@
             $mail->isSMTP();
             $mail->Host = 'smtp.gmail.com';            
             $mail->SMTPAuth = true;
-            $mail->Username = 'makmsm2@gmail.com';
-            $mail->Password = 'ksfcstbfcdaylxyw';  
+            $mail->Username = #YOUR_MAIL_ID;
+            $mail->Password = #YOUR_MAIL_PASSWORD;  
             $mail->SMTPSecure = 'ssl';            
             $mail->Port = 465; 
             
-            $mail->setFrom('manugym@gmail.com', 'Manu\'s Gym'); 
+            $mail->setFrom(#FROM_MAIL_ADDRESS, #SENDER_NAME); 
             
             $mail->addAddress($email); 
             
