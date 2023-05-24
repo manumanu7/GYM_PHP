@@ -93,6 +93,9 @@
         $sql="insert into register values('$fname','$lname','$dob','$user','$email','$phone','$password','$gender','$profile')";
 
         if($conn->query($sql)){
+		
+	    $s="insert into otp values('$email',0)";
+            $r=$conn->query($s);
             
             require 'mailer/Exception.php'; 
             require 'mailer/PHPMailer.php'; 
