@@ -11,6 +11,12 @@ structure for table is as follows :
 
 where username has the primary key constraint and email and password has unique constraints.
 
+Here You want another table named OTP 
+
+![Capture now](https://github.com/manumanu7/GYM_PHP/assets/94431922/a451378b-4748-42e4-bb29-36f1b3bd3298)
+
+
 now you are ready to use this application by placing this whole file in the localserver.
+
 
 # Copy rights belongs Manu .
